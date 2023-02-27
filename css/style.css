@@ -32,6 +32,12 @@ header.main-header nav {
   top: 0px;
 }
 
+@media (min-width: 1400px) {
+  header.main-header nav {
+    padding: 75px 50px 0 290px;
+  }
+}
+
 ul.main-nav {
   list-style-type: none;
   /* font-size: 0px; */
@@ -44,7 +50,7 @@ ul.main-nav {
 }
 ul.main-nav > li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 18px;
   /* min-width: 150px; */
 }
 .navbar-brand {
@@ -85,10 +91,10 @@ ul.main-nav > li {
 .lang-options a,
 .page-links li a,
 ul.main-nav > li > a {
-  color: #262829;
+  color: black;
 }
 ul.main-nav > li > a {
-  font-size: 18px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 .inverse ul.main-nav > li > a {

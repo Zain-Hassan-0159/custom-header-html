@@ -320,10 +320,10 @@
   }
   .resp-mode-site-link p {
     color: #fff;
-    position: absolute;
+    /* position: absolute;
     bottom: 40px;
     left: 0;
-    right: 0;
+    right: 0; */
     text-align: left;
     padding: 0 20px 0 60px;
     font-family: "Raleway", sans-serif;
@@ -341,6 +341,9 @@
   }
   .nav-wrapper {
     display: block;
+  }
+  .sub-menu-head:before {
+    width: 0px;
   }
 }
 @media only screen and (max-width: 480px) {
